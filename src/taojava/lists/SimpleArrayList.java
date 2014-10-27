@@ -20,8 +20,7 @@ import java.util.NoSuchElementException;
  * an undetermined time in the future."
  */
 public class SimpleArrayList<T>
-    implements
-      SimpleList<T>
+    implements SimpleList<T>
 {
   // +-----------+---------------------------------------------------------
   // | Constants |
