@@ -4,6 +4,7 @@ import java.io.PrintWriter;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 /**
  * Simple explorations of iterators and list iterators, using Java's
@@ -45,9 +46,9 @@ public class ArrayListExperiment
 
     // Create some iterators for the list
     Iterator<String> it = strings.iterator();
-    Iterator<String> lit = strings.listIterator();
-    Iterator<String> lit1 = strings.listIterator();
-    Iterator<String> lit2 = strings.listIterator();
+    ListIterator<String> lit = strings.listIterator();
+    ListIterator<String> lit1 = strings.listIterator();
+    ListIterator<String> lit2 = strings.listIterator();
 
     // And we're done
     pen.close();
